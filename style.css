@@ -1,0 +1,72 @@
+body {
+    background-color: tomato;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+}
+
+ul li {
+    background-color: tomato;
+    border: solid 1px tomato;
+    list-style-type: none;
+    border-radius: 10px;
+    color: white;
+    margin: 5px;
+    padding: 8px 15px;
+}
+ul li:hover {
+    background-color: white;
+    color: tomato;
+}
+ul {
+    padding: 0;
+}
+
+section {
+    background-color: white;
+    padding: 15px;
+}
+
+.colored {
+    color: tomato;
+    font-weight: bold;
+}
+.large  {
+    color: tomato;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+aside {
+    background-color: lightpink;
+    padding: 10px;
+	width: 25%;
+	margin-left:20px;
+}
+
+footer {
+    background-color: lightgray;
+    color: tomato;
+    text-align: center;
+    border: solid 1px darkgray;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+nav, main, aside {
+    display: inline-block;
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+
+main {
+	width: 50%;
+}
+nav {
+    width: 20%;
+}
